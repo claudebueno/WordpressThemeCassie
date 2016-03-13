@@ -30,7 +30,7 @@ Hi. I'm a awsome Wordpress theme called Cassie. I'm 100% responsive.
 
 ###== Screenshot ==
 
-![Screeshot](https://github.com/claudebueno/flatnatura/blob/master/screenshot.png)
+![Screeshot](https://github.com/claudebueno/WordpressThemeCassie/blob/master/screenshot.png)
 
 
 ###== Frequently Asked Questions ==
