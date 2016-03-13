@@ -23,11 +23,11 @@ if ( ! isset( $content_width ) )
 /* Adjust $content_width it depending on the temaplte used. -----------------*/
 function themememe_content_width() {
 	global $content_width;
-    
+
 	if ( ! is_active_sidebar( 'sidebar-1' ) || is_page_template( 'full-width-page.php' ) )
 		$content_width = 1140;
 }
-add_action( 'template_redirect', 'themememe_content_width' );    
+add_action( 'template_redirect', 'themememe_content_width' );
 
 
 /*-----------------------------------------------------------------------------------*/
@@ -149,19 +149,20 @@ if ( ! function_exists( 'themememe_site_title' ) ) {
 	function themememe_site_title() {
 		// Text or image?
 		if ( ot_get_option('custom-logo') ) {
-			$logo = '<img src="'.ot_get_option('custom-logo').'" alt="'.esc_attr(get_bloginfo('name', 'display')).'">';
+			$logo = '<img src="'.ot_get_option('custom-logo').'" alt="'.esc_attr(get_bloginfo('name', 'display')).'" style="max-width: 100%; height: auto">';	
+
 		} else {
 			$logo = get_bloginfo('name');
 		}
-		
+
 		$link = '<a href="'.esc_url(home_url('/')).'" rel="home">'.$logo.'</a>';
-		
+
 		if ( is_front_page() || is_home() ) {
 			$sitename = '<h1 class="site-title">'.$link.'</h1>'."\n";
 		} else {
 			$sitename = '<div class="site-title">'.$link.'</div>'."\n";
 		}
-		
+
 		return $sitename;
 	}
 }
@@ -422,7 +423,7 @@ function themememe_post_gallery( $output, $attr) {
 	if ( isset( $attr['type'] ) ) {
 		return;
 	}
-  
+
 	extract(shortcode_atts(array(
 		'order'      => 'ASC',
 		'orderby'    => 'menu_order ID',

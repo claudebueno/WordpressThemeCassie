@@ -274,10 +274,10 @@ img[class*="attachment-"] {
 	visibility: hidden;
 	line-height: 0;
 	height: 0;
-} 
+}
 html[xmlns] .flexslider .slides {
 	display: block;
-} 
+}
 * html .flexslider .slides {
 	height: 1%;
 }
@@ -296,7 +296,7 @@ html[xmlns] .flexslider .slides {
  }
 
 /* Direction nav */
-.flex-direction-nav {	
+.flex-direction-nav {
 	position: absolute;
 	left: 20px;
 	right: 20px;
@@ -358,20 +358,20 @@ html[xmlns] .flexslider .slides {
 	line-height: 1;
 }
 .flex-control-nav li {
-    margin: 0 0 0 5px!important; 
+    margin: 0 0 0 5px!important;
     display: inline-block;
     text-indent: -999em;
-    zoom: 1; 
+    zoom: 1;
 }
 .flex-control-nav li a {
-    width: 12px; 
-    height: 12px; 
+    width: 12px;
+    height: 12px;
     display: block;
-    cursor: pointer; 
+    cursor: pointer;
 	text-decoration: none;
-    text-indent: -999em; 
-    background: #e8e7e5; 
-    border-radius: 50%; 
+    text-indent: -999em;
+    background: #e8e7e5;
+    border-radius: 50%;
 }
 .flex-control-nav li a:hover {
 	background: rgba(0, 0, 0, .75);
@@ -513,7 +513,7 @@ html[xmlns] .flexslider .slides {
 	-webkit-overflow-scrolling: touch;
 }
 
-/*	nativeMobile override */ 
+/*	nativeMobile override */
 .dk_mobile {
 	position: relative;
 }
@@ -624,9 +624,9 @@ html[xmlns] .flexslider .slides {
 .top-menu .menu-bar ul li a {
 	color: rgba(255, 255, 255, .5);
 }
-.top-menu .menu-bar ul li > a:hover, 
-.top-menu .menu-bar ul li:hover > a, 
-.top-menu .menu-bar ul li.current_page_item > a, 
+.top-menu .menu-bar ul li > a:hover,
+.top-menu .menu-bar ul li:hover > a,
+.top-menu .menu-bar ul li.current_page_item > a,
 .top-menu .menu-bar ul li.current-menu-item > a,
 .top-menu .menu-bar ul li.current-menu-ancestor > a,
 .top-menu .menu-bar ul li.current_page_ancestor > a,
@@ -640,9 +640,9 @@ html[xmlns] .flexslider .slides {
 .main-menu .menu-bar ul li a {
 	color: #64534e;
 }
-.main-menu .menu-bar ul li > a:hover, 
-.main-menu .menu-bar ul li:hover > a, 
-.main-menu .menu-bar ul li.current_page_item > a, 
+.main-menu .menu-bar ul li > a:hover,
+.main-menu .menu-bar ul li:hover > a,
+.main-menu .menu-bar ul li.current_page_item > a,
 .main-menu .menu-bar ul li.current-menu-item > a,
 .main-menu .menu-bar ul li.current-menu-ancestor > a,
 .main-menu .menu-bar ul li.current_page_ancestor > a,
@@ -670,7 +670,7 @@ html[xmlns] .flexslider .slides {
 	.top-menu .menu-bar ul ul ul {
 		top: 0;
 	}
-	.top-menu .menu-bar ul ul li > a:hover, 
+	.top-menu .menu-bar ul ul li > a:hover,
 	.top-menu .menu-bar ul ul li:hover > a {
 		background-color: rgba(0, 0, 0, .15);
 	}
@@ -686,8 +686,8 @@ html[xmlns] .flexslider .slides {
 		font-weight: 700;
 		font-family: Raleway, Arial, Helvetica, sans-serif;
 	}
-	.main-menu .menu-bar ul li:hover > a, 
-	.main-menu .menu-bar ul li.current_page_item > a, 
+	.main-menu .menu-bar ul li:hover > a,
+	.main-menu .menu-bar ul li.current_page_item > a,
 	.main-menu .menu-bar ul li.current-menu-item > a,
 	.main-menu .menu-bar ul li.current-menu-ancestor > a,
 	.main-menu .menu-bar ul li.current_page_ancestor > a,
@@ -697,7 +697,7 @@ html[xmlns] .flexslider .slides {
 	.main-menu .menu-bar ul ul li a {
 		color: #fff;
 	}
-	.main-menu .menu-bar ul ul li > a:hover, 
+	.main-menu .menu-bar ul ul li > a:hover,
 	.main-menu .menu-bar ul ul li:hover > a {
 		color: #fff;
 		background: #cf6e33;
@@ -1453,13 +1453,34 @@ a#cancel-comment-reply-link:before {
 /* ==========================================================================
    Style spécifique et personnalisée
    ========================================================================== */
-.signature {
-    font-family: 'Pinyon Script';
-    color: #3c312e;
-    font-size: 46px;
-    font-weight: 800;
-   /* text-align: right;
-    padding-right: 25px; */
-    padding-top: 20px;
-    text-shadow: 4px 4px 4px #aaa;
+/* --- Call-to-action --- */
+.call-to-action {
+	 -moz-border-radius: 5px;
+	 -webkit-border-radius: 5px;
+	 border-radius: 5px;
+	 -moz-box-sizing: border-box;
+	 -webkit-box-sizing: border-box;
+	 box-sizing: border-box;
+	 -moz-appearance: none;
+	 -webkit-appearance: none;
+	 background: #ec610d;
+	 color: #fff;
+	 display: inline-block;
+	 padding: 1rem;
+	 text-align: center;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+.call-to-action a {
+	color: #FFFFFF;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.call-to-action:hover {
+	background: #ec610d;
+	color: #FFFFFF;
+	text-decoration: underline;
 }

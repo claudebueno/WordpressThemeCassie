@@ -62,11 +62,6 @@ normalize.css
 * (C) 2012-2015 Nicolas Gallagher and Jonathan Neal
 * [MIT](http://opensource.org/licenses/MIT)
 
-Bootstrap v3.0.0 - Base CSS
-* URL: http://getbootstrap.com
-* License: Apache License v2.0
-* Copyright:  Mark Otto (@mdo) & Jacob (@fat)
-
 Awesome Fonts v4.0.3 - Icons Font
 * URL: http://fontawesome.io
 * License: SIL OFL 1.1
